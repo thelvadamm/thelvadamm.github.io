@@ -1835,7 +1835,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.StreamCapture = new StreamCaptureModule('capture-btn');
 	
 	//Load sample
-	window.PlaybackEngine.searchInput.value = "http://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8";
+	window.PlaybackEngine.searchInput.value = "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8";
 	window.PlaybackEngine.loadStream();
 
     document.addEventListener('segmentSelected', (e) => {
